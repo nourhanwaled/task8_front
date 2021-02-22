@@ -1,0 +1,414 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+/*start of slide bar*/
+.slidebar{
+    width: 130px;
+    height: 750px;
+   float: left;
+    background-color:dimgray;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+.slidebar ul img{
+    width: 130px;
+    height: 130px;
+}
+.slidebar ul i{
+    color: white;
+    display: block;
+    font-size: 50px;
+}
+.slidebar ul li:hover{
+    background-color: black;
+}
+.slidebar .v{
+   background-color: black;
+}
+.slidebar ul li{
+    padding: 25px 0px;
+}
+.slidebar ul li a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+}
+/*end of slidebar*/
+/*start of header*/
+header{
+    color: white;
+    text-align: center;
+    margin-left: 132px;
+}
+header h1{
+    font-size: 100px;
+    padding-top: 100px;
+}
+header p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+header img{
+    width: 1150px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 35px 0px;
+}
+.name{
+    color: white;
+    margin: 20px 0px 20px 132px;
+}
+#skills{
+    color: white;
+    margin: 20px 0px 20px 132px;
+}
+#skills h1{
+   font-size: 30px;
+    margin:20px 110px;
+
+}
+.name hr,.skills hr{
+    width: 10%;
+    margin-left: 110px;
+}
+#skills hr{
+    width: 10%;
+    margin-left: 110px;
+}
+.name h1{
+    font-size: 30px;
+    margin:20px 110px;
+}
+.name p{
+    text-align: justify;
+    margin: 30px 110px;
+    font-size: 20px;
+}
+/*end of header*/
+/*start of skills*/
+#skills p{
+   margin: 15px 110px;
+    font-size: 20px;
+    color: darkgray;
+}
+#skills .p2{
+    word-spacing: 8px;
+    letter-spacing: 8px;
+}
+.p1{
+  background-color: darkgray;
+    width: 78.5%;
+    margin-left: 110px;+
+}
+#skills .input1{
+   margin-left: 110px;
+    margin-right: 0px;
+    width: 75%;
+    height: 25px;
+    background-color: darkgray;
+    border: none;
+}
+#skills .input2{
+    margin-left: 0px;
+    height: 25px;
+    border: none;
+}
+#skills .input3{
+   margin-left: 110px;
+    margin-right: 0px;
+    width: 65%;
+    height: 25px;
+    background-color: darkgray;
+    border: none;
+}
+#skills .input4{
+    margin-left: 0px;
+    height: 25px;
+    border: none;
+    width: 24.5%;
+}
+#skills .input5{
+   margin-left: 110px;
+    margin-right: 0px;
+    width: 80%;
+    height: 25px;
+    background-color: darkgray;
+    border: none;
+}
+#skills .input6{
+    margin-left: 0px;
+    height: 25px;
+    border: none;
+    width: 9.5%;
+}
+.partner{
+    margin: 50px 0px 0px 110px;
+    padding:20px 0px;
+    width: 78.5%;
+    height: 90px;
+    background-color:beige;
+    color: black;
+}
+.partner .n1,.partner .pr5{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    color: black;
+}
+.partner .n1 p,.partner .pr5 p{
+   font-weight: bold;
+    color: blue;
+}
+.partner .pr5 p{
+    margin-left: 90px;
+    margin-right: 100px;
+    color: black;
+}
+.pr5{
+    margin-left: 130px;
+    padding-right: 90px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+   margin: 20px 0px 0px 110px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button i{
+   padding: 10px; 
+}
+/*end of skils*/
+/*start of price*/
+.h1{
+    font-size: 40px;
+    color: white;
+    margin: 50px 0px 0px 250px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.price .t1{
+    margin: 20px 0px 0px 250px; 
+}
+.price .t2{
+    margin: 20px 180px 0px 5px; 
+}
+table th,table td,table tr{
+    border-collapse: collapse;
+border: solid 2px lightgray;
+}
+.price table{
+    width: 35%;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    color: dimgray;
+    font-weight: bold;
+    font-size: 20px;
+}
+th{
+    background-color:dimgray;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+tr:hover{
+    color: white;
+    background-color: #888;
+}
+table button{
+  width: 130px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+}
+table button:hover{
+    color: white;
+    background-color: black;
+}
+
+/*end of price*/
+/*start of reputation*/
+.reputation{
+     margin: 50px 0px 0px 250px;
+}
+.reputation h1{
+    font-size: 40px;
+    color: white;
+   
+}
+.reputation img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.pic1{
+    display: flex;
+    color: white;
+}
+.pic1 p{
+  margin:90px 50px;
+  font-size: 17px;
+  color: lightgray;
+}
+/*start of reputation*/
+/*start of my photo*/
+#photo{
+   margin: 50px 0px 0px 250px;
+}
+#photo h1{
+    font-size: 40px;
+    color: white;
+   
+}
+#photo hr{
+     width: 15%;
+    margin: 20px 0px 15px;
+}
+#photo .img2{
+    width: 600px;
+    height: 300px;
+}
+#photo .img3{
+    width: 298px;
+    height: 300px;
+}
+#photo .img4{
+    width: 1209px;
+    height: 300px;
+}
+#photo .img5{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+/*end of photo*/
+/*start of contact*/
+#contact{
+    margin: 50px 0px 0px 250px;
+    margin-bottom: 200px;
+}
+#contact h1{
+    font-size: 40px;
+    color: white;
+   
+}
+#contact hr{
+     width: 15%;
+    margin: 20px 0px 15px;
+}
+#contact ul{
+    list-style-type: none;
+}
+#contact li{
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+#contact li a{
+    text-decoration: none;
+    color: #888;
+    padding-top: -30px;
+}
+#contact i{
+    font-size: 30px;
+    color: white;
+   margin-right: 20px;
+    overflow: hidden;
+    padding-top: -15px;
+}
+/*end of contact*/
+/*start of form*/
+#contact hr{
+     width: 15%;
+    margin: 20px 0px 15px;
+}
+#contact ul{
+    list-style-type: none;
+}
+#contact li{
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+#contact li a{
+    text-decoration: none;
+    color: #888;
+    padding-top: -30px;
+}
+#contact i{
+    font-size: 30px;
+    color: white;
+   margin-right: 20px;
+    overflow: hidden;
+    padding-top: -15px;
+}
+.form{
+    margin: 50px 0px 0px 250px;
+    margin-bottom: 200px;
+}
+.form input[type="text"],.form input[type="email"]{
+    display: block;
+    width: 80%;
+    height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.form p{
+    font-size: 15px;
+    color: #888;
+   
+}
+textarea{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #888;
+}
+.button2{
+    width: 200px;
+    height: 40px;
+    display: block;
+   margin: 20px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/*end of form*/
+/*start of footer*/
+footer{
+    margin: 50px 0px 0px 600px;
+    text-align: center;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+footer ul li{
+    padding: 20px;
+}
+footer i{
+    font-size: 50px;
+}
+/*end of footer*/
